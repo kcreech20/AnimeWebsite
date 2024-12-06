@@ -69,7 +69,7 @@ const links = ref([
   { text: "Ongoing", to: "/electronics", icon: "mdi-progress-clock" },
   { text: "Favorites", to: "/clothing", icon: "mdi-heart" },
   { text: "Dislikes", to: "/groceries", icon: "mdi-delete-forever" },
-  { text: "Top Rated", to: "/bestseller", icon: "mdi-trophy-award" },
+  { text: "Top Rated", to: "/TopRated", icon: "mdi-trophy-award" },
   // {text: "Add Product", to: "/add-product", icon: "mdi-plus"}
 ]);
 

@@ -5,7 +5,7 @@ import HomeView from "./components/Home.vue";
 import ClothingView from "./components/Clothing.vue";
 import ElectronicsView from "./components/Electronics.vue";
 import GroceriesView from "./components/Groceries.vue";
-import BestSellerView from "./components/BestSeller.vue";
+import BestSellerView from "./components/TopRated.vue";
 
 const routes = [
   {
@@ -29,7 +29,7 @@ const routes = [
     component: GroceriesView,
   },
   {
-    path: "/bestseller",
+    path: "/TopRated",
     name: "Top Rated",
     component: BestSellerView,
   },
